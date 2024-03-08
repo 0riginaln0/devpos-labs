@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  python-app:
+    build: ./ex1
+    #image: python-films:v2
+    restart: no
+
+  odin-app:
+    build: ./ex2
+    #image: odin-counter:v5
+    restart: no
